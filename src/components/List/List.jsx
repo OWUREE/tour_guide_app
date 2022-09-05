@@ -51,7 +51,7 @@ const List = ({
             </Select>
           </FormControl>
           <FormControl className={classes.formControl}>
-            <InputLabel> Rating </InputLabel>
+            <InputLabel> Ratings </InputLabel>
             <Select value={rating} onChange={(e) => setRating(e.target.value)}>
               <MenuItem value={0}>All</MenuItem>
               <MenuItem value={3}>Above 3.0</MenuItem>
